@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/DeleteOnly"
+    android:text="Xoa su kien nay"
+    android:textSize="30dp"
+    android:textColor="@color/black"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+
+    />
+
+    <TextView
+        android:id="@+id/DeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Xoa tat ca su kien"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+        <TextView
+            android:id="@+id/Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

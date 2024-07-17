@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BTL_LTDT_2</string>
+    <string name="Prebtn"><![CDATA[<]]></string>
+    <string name="Nextbtn"><![CDATA[>]]></string>
+    <string name="select">Select Item</string>
+    <string name="pre_button"><![CDATA[<]]></string>
+</resources>
